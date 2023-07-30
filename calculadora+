@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int num1, num2; 
+    int result;
+    printf("digite o primeiro numero: ");
+    scanf("%d", &num1);
+    printf("digite o segundo numero: ");
+    scanf("%d", &num2);
+    result = ( num1 + num2);
+    printf("resultado é: %d", result);
+    return 0;
+}
